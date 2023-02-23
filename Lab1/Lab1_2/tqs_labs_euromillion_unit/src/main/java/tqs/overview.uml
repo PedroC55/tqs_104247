@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-97.72854017409807" y="220.3612355706785">tqs.euromillions.Dip</node>
+    <node x="230.66506322457104" y="-14.572302435276342">tqs.sets.BoundedSetOfNaturals</node>
+    <node x="254.59779380650974" y="299.32161650380874">tqs.euromillions.CuponEuromillions</node>
+    <node x="512.2780354583816" y="329.16951787921874">tqs.euromillions.EuromillionsDraw</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="380.0" y="235.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
