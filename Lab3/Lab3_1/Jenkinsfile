@@ -1,0 +1,20 @@
+pipeline {
+  agent any
+  tools {
+      jdk 'ora8'
+      maven 'maven3'
+  }
+  stages {
+      stage('test java installation') {
+          steps {
+              sh 'java -version'               
+          }
+      }
+      stage('test maven installation') {
+          steps {
+              sh 'mvn -version'           
+          }
+      }
+  }
+}
+
