@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.DockerBrowserTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 12.403 s <<< FAILURE! - in com.example.DockerBrowserTest
+testWithDockerEdge{RemoteWebDriver}  Time elapsed: 9.316 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because "driver" is null
+	at com.example.DockerBrowserTest.testWithDockerEdge(DockerBrowserTest.java:24)
+
+testWithDockerOpera{RemoteWebDriver}  Time elapsed: 3.084 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because "driver" is null
+	at com.example.DockerBrowserTest.testWithDockerOpera(DockerBrowserTest.java:18)
+

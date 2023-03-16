@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.HeadlessBrowserTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in com.example.HeadlessBrowserTest
+testWithHeadless{HtmlUnitDriver}  Time elapsed: 0.034 s  <<< ERROR!
+java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+	at com.example.HeadlessBrowserTest.setUp(HeadlessBrowserTest.java:24)
+

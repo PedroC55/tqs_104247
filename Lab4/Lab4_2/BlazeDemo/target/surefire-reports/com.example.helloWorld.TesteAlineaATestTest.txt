@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.helloWorld.TesteAlineaATestTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in com.example.helloWorld.TesteAlineaATestTest
+com.example.helloWorld.TesteAlineaATestTest.testeAlineaA()  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at com.example.helloWorld.TesteAlineaATestTest.testeAlineaA(TesteAlineaATestTest.java:35)
+

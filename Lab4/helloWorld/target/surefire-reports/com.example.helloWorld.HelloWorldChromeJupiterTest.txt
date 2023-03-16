@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.example.helloWorld.HelloWorldChromeJupiterTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.931 s <<< FAILURE! - in com.example.helloWorld.HelloWorldChromeJupiterTest
+test  Time elapsed: 6.204 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LenovoManuel', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.90.1-microsoft-standard-WSL2', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at com.example.helloWorld.HelloWorldChromeJupiterTest.setup(HelloWorldChromeJupiterTest.java:30)
+
