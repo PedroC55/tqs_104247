@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+
+	<head>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+		<script src="javascript/index.js"></script>
+
+	</head>
+
+    <body>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" >
+                    <div class="single-travel-boxes" style="margin-bottom: 130px;">
+    
+                        <div id="insertText">
+                            <div class="row ">
+                                <div class="col-lg-12" >
+                                    <h2>City</h2>
+    
+                                    <input type="text" id="city" name="city" onblur="getVal()">
+    
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="row">	
+                            <div class="col-lg-12" style="margin-top: 30px;">
+                                    <div class="about-btn travel-mrt-0 pull-right">
+    
+                                        <button  class="about-view travel-btn" id="searchButton" style="width: 150px;">
+                                            Get Data
+                                        </button>
+                                        
+    
+                                    </div>
+                                    
+                            </div>
+                        </div>
+    
+    
+                        <div class="container" style="margin-top: 100px; border-top: solid 1px ;">
+                            
+    
+                            <div class="row ">
+                                <div style="color: #72a6d3; font-size: 30px; margin-bottom: 20px;" >
+                                    Air Quality
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8" style="padding-left: 100px; font-weight: bold;">City: </div><div class="col-lg-4" id="city"></div>
+                            </div>
+    
+                            <div class="row">
+                                <div class="col-lg-8" style="padding-left: 100px; font-weight: bold;">Air Quality Index [US - EPA standard 0 - +500]: </div><span class="col-lg-4" id="aqi"></span>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8" style="padding-left: 100px; font-weight: bold;">Concentration of surface O3 (µg/m³): </div><span class="col-lg-4" id="surfaceo3"></span>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8" style="padding-left: 100px; font-weight: bold;">Concentration of surface SO2 (µg/m³): </div><span class="col-lg-4" id="surfaceso2"></span>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8" style="padding-left: 100px; font-weight: bold;">Concentration of surface NO2 (µg/m³): </div><span class="col-lg-4" id="surfaceno2"></span>
+                            </div>	
+                            <div class="row">
+                                <div class="col-lg-8" style="padding-left: 100px; font-weight: bold;">Concentration of carbon monoxide (µg/m³): </div><span class="col-lg-4" id="monoxide"></span>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8" style="padding-left: 100px; font-weight: bold;">Concentration of particulate matter under 2.5 microns (µg/m³): </div><span class="col-lg-4" id="under2_5"></span>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8" style="padding-left: 100px; font-weight: bold;">Concentration of particulate matter under 10 microns (µg/m³): </div><span class="col-lg-4" id="under10"></span>
+                            </div>
+                            
+                            </div>
+                                                            
+                        </div>
+    
+                        <div class="container" style="margin-top: 100px;">
+                            <div class="row">
+                                <div class="col-md-12" >
+                                    <h1 style="margin-bottom: 50px; margin-top: 10px; font-size: 20px;">Cache Details</h1>
+    
+                                    <div class="row" style="font-size: 15px;">
+                                        <div class="col-lg-4" style="font-size: 15px;">Hits: </div>
+                                        <div class="col-lg-8" id="hits">0</div>
+                                    </div>
+        
+                                    <div class="row" style="font-size: 15px;">
+                                        <div class="col-lg-4" style="font-size: 15px;">Misses: </div>
+                                        <div class="col-lg-8" id="misses">0</div>
+                                    </div>
+        
+                                    <div class="row" style="font-size: 15px;">
+                                        <div class="col-lg-4" style="font-size: 15px;">Requests: </div>
+                                        <div class="col-lg-8" id="requests">0</div>
+                                    </div>
+                                    <div class="row">
+                                        
+                                        <div class="col-lg-12" style="margin-top: 30px;">
+                                            <div class="about-btn travel-mrt-0 pull-right">
+                                                <a>
+                                                    <button  class="about-view travel-btn" id="updateButton" style="width: 150px; margin-bottom: 10px;">
+                                                        Update Cache
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    </body>
+</html>
